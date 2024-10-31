@@ -1,0 +1,27 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.post-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.post-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.post-button.active {
+  background-color: #0056b3; /* Darker for active button */
+  font-weight: bold;
+  transform: scale(1.05); /* Slightly enlarge active button */
+}
